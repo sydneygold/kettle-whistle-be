@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  image: MyString
+  ingredients: MyText
+  tools: MyString
+  temperature: 1
+  timer: 1
+  instructions: MyText
+
+two:
+  name: MyString
+  image: MyString
+  ingredients: MyText
+  tools: MyString
+  temperature: 1
+  timer: 1
+  instructions: MyText
