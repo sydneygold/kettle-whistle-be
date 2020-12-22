@@ -66,7 +66,8 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps. This is the backend that links up with this [to be added...](https://github.com/sydneygold/hey-remember-that-friend-fe)
+To get a local copy up and running follow these simple steps. This is the backend that links up with this [frontend repo](https://github.com/sydneygold/kettle_whistle_fe)
+This backend repo is also deployed on heroku at [here for coffee](https://kettle-whistle-be.herokuapp.com/coffees) and [here for tea](https://kettle-whistle-be.herokuapp.com/coffees)
 
 * `rails db:create`
 * `rails db:migrate`
@@ -86,7 +87,7 @@ To get a local copy up and running follow these simple steps. This is the backen
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this app to keep up with friends, clients, potential employers, anyone! 
+Use this app to keep up with recipes for coffee and tea and time your brews for the perfect cup!
 
 <!-- CONTRIBUTING -->
 ## Contributing
