@@ -5,16 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
+Coffee.destroy_all
+Tea.destroy_all
 
 Coffee.create(
     name: "Dalgona Coffee", 
     image: "https://rasamalaysia.com/wp-content/uploads/2020/05/dalgona-coffee.jpg", 
-    ingredients: "5 grams instant coffee,
-        1 tablespoon sugar,
-        1 tablespoon hot water,
-        250 ml cold milk,
-        ice cubes", 
+    ingredients: "5 grams instant coffee, 1 tablespoon sugar, 1 tablespoon hot water, 250 ml cold milk, ice cubes", 
     tools: "whisk", 
     temperature: "Cold",
     timer_in_minutes: 8,
@@ -24,10 +21,7 @@ Coffee.create(
 Coffee.create(
     name: "Espresso Tonic", 
     image: "https://www.baristainstitute.com/sites/default/files/styles/some_share/public/images/Espresso_tonic_baristainstitute_0.jpg?itok=VSd5FgCB", 
-    ingredients: "2 shots (50–60 ml) of Paulig espresso, 
-        1.5 dl tonic water,
-        1 lime wedge,
-        Ice", 
+    ingredients: "2 shots (50–60 ml) of Paulig espresso, 1.5 dl tonic water, 1 lime wedge, Ice", 
     tools: "Shot glass", 
     temperature: "Iced",
     timer_in_minutes: 4,
@@ -37,12 +31,7 @@ Coffee.create(
 Coffee.create(
     name: "Vietnamese Egg Coffee", 
     image: "https://i0.wp.com/www.forkinthekitchen.com/wp-content/uploads/2017/12/egg.coffee-0422-1.jpg?resize=680%2C1020&ssl=1", 
-    ingredients: "4oz preferrably robusta coffee, or a dark roasted arabica,
-        3 tablespoons sweetened condensed milk,
-        1 teaspoon sugar
-        2 egg yolks 
-        4 cups of hot water (boiling)
-        ", 
+    ingredients: "4oz preferrably robusta coffee, or a dark roasted arabica, 3 tablespoons sweetened condensed milk, 1 teaspoon sugar, 2 egg yolks, 4 cups of hot water (boiling)", 
     tools: "Vietnamese Phin Filter (or a French Press), Electric whisk, 1 bowl, kettle", 
     temperature: "205",
     timer_in_minutes: 9,
@@ -66,7 +55,7 @@ Coffee.create(
     tools: "Aeropress, aeropress filter, kettle, grinder, scale", 
     temperature: "197",
     timer_in_minutes: 1,
-    instructions: "Pour 100g of water on the coffee in 10 seconds. Stir firmly for 20 times in 10 seconds. Put the filter cap with rinsed filter on the brewer and gently press out excess air. At 40 seconds, flip the AeroPress and press out all coffee. You should end up with roughly 60g of extracted coffee. Add 100g of water to the extracted coffee. Taste and add more water until the desired strength (I ended up with 120g dilution) Cool the brew down to roughly 60°C (140°F) by stirring and decanting. Slurp & enjoy!"
+    instructions: "Fun fact: This recipe is from the Netherland's 2019 Aeropress champion, Wendelien van Bunnik! Pour 100g of water on the coffee in 10 seconds. Stir firmly for 20 times in 10 seconds. Put the filter cap with rinsed filter on the brewer and gently press out excess air. At 40 seconds, flip the AeroPress and press out all coffee. You should end up with roughly 60g of extracted coffee. Add 100g of water to the extracted coffee. Taste and add more water until the desired strength (I ended up with 120g dilution) Cool the brew down to roughly 60°C (140°F) by stirring and decanting. Slurp & enjoy!"
 )
 
 Coffee.create(
