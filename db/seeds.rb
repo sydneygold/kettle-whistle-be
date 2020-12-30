@@ -21,7 +21,7 @@ Coffee.create(
 Coffee.create(
     name: "Espresso Tonic", 
     image: "https://www.baristainstitute.com/sites/default/files/styles/some_share/public/images/Espresso_tonic_baristainstitute_0.jpg?itok=VSd5FgCB", 
-    ingredients: "2 shots (50–60 ml) of Paulig espresso, 1.5 dl tonic water, 1 lime wedge, Ice", 
+    ingredients: "2 shots (50–60 ml) of espresso, 1.5 dl tonic water, 1 lime wedge, ice", 
     tools: "Shot glass", 
     temperature: "Iced",
     timer_in_minutes: 4,
